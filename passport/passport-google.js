@@ -1,6 +1,5 @@
 const passport = require('passport');
 const User = require('../models/usersModel');
-const Secret = require('./../secret/secretFile');
 const flash = require('connect-flash');
 const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 

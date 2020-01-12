@@ -34,7 +34,6 @@ const newsRouter  = require('./routers/newsRouter');
 const passportLocal = require('./passport/passport-local');
 const passportFacebook = require('./passport/passport-facebook');
 const passportGoogle = require('./passport/passport-google');
-const configF = require('./secret/secretFile');
 
 
 const app = express();
